@@ -11,8 +11,10 @@
 				
 			}
 		},
-		onLoad() {
-
+		async onLoad() {
+			const res =  await this.$u.get('/api/index')
+			// console.log(res)
+			// console.log("111")
 		},
 		methods: {
 
