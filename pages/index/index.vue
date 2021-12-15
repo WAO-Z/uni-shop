@@ -44,6 +44,7 @@
 		},
 
 		onLoad() {
+			this.$u.utils.isLogin()
 			this.getData()
 
 		},

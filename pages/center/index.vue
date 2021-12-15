@@ -8,11 +8,14 @@
 	export default {
 		data() {
 			return {
-				
+
 			}
 		},
 		onLoad() {
-
+			if(!this.$u.utils.isLogin()) return 
+			this.$u.utils.isLogin()
+			
+			
 		},
 		methods: {
 
@@ -22,5 +25,5 @@
 
 <style lang="scss" scoped>
 
-		
+
 </style>
